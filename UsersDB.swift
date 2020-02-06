@@ -41,7 +41,7 @@ class UsersDB {
           return
         }
         guard let responseData = data else {
-          print("Error: did not receive data im in master branch")
+          print("Error: did again from fb not receive data im in master branch")
           return
         }
         // parse the result as JSON, since that's what the API provides
