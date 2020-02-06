@@ -36,7 +36,7 @@ class UsersDB {
       let task = session.dataTask(with: todosUrlRequest) {
         (data, response, error) in
         guard error == nil else {
-          print("error calling POST on /todos/1")
+          print("error calling POST on /todos/1 test here")
           print(error!)
           return
         }
