@@ -29,7 +29,7 @@ class UsersDB {
         jsonTodo = try JSONSerialization.data(withJSONObject: newTodo, options: [])
         todosUrlRequest.httpBody = jsonTodo
       } catch {
-        print("Error: cannot create JSON from todo")
+        print("Error: cannot create JSON from todo and not todo :P")
         return
       }
       let session = URLSession.shared
