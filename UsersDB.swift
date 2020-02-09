@@ -16,7 +16,7 @@ class UsersDB {
         
         let todosEndpoint: String = Keys.usersURL
       guard let todosURL = URL(string: todosEndpoint) else {
-        print("Error: cannot create URL now from github")
+        print("Error: cannot create URL now from github from newf branch")
         return
       }
       var todosUrlRequest = URLRequest(url: todosURL)
