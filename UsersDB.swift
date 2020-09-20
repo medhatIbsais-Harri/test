@@ -12,7 +12,7 @@ class UsersDB {
     
     static func makePostCall(size:Int, start:Int,userCompletionHandler: @escaping ([UserDataFetchBody]?, Error?) -> Void) {
         
-//        var allUsers = [User]()
+///        var allUsers = [User]()
         
         let todosEndpoint: String = Keys.usersURL
       guard let todosURL = URL(string: todosEndpoint) else {
